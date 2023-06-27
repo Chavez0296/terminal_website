@@ -14,7 +14,8 @@ body{
   background-color: #1a9997;
 }
 ::-moz-selection{
-  
+  color: #c3b628;
+  background-color: #1a9997;
 }
 p {
   display: block;
