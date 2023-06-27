@@ -1,0 +1,72 @@
+html {
+    display: block;
+}
+body{
+  min-height: 99%;
+  padding: 25px 20px;
+  margin: 0;
+  width: 100%;
+  font-family: cursor, system-ui;
+  overflow-x: hidden;
+}
+::selection{
+  color: #c3b628;
+  background-color: #1a9997;
+}
+::-moz-selection{
+  
+}
+p {
+  display: block;
+  line-height: 1.em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: -0.02em;
+  animation: typing 0.5s steps(30, end);
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.index {
+  color: #a6a6a6;
+}
+.color2 {
+  color: #e2d86a;
+}
+.command {
+  color: #1cc9ce;
+  text-shadow: 0 0 5px #1cc9ce; 
+}
+.error {
+  color: #B89076;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #9C8394;
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background: #73ABAD;
+  color: #211830;
+}
+a:focus {
+  outline: 0;
+}
