@@ -11,19 +11,19 @@ body{
 }
 ::selection{
   color: #c3b628;
-  background-color: #1a9997;
+  background-color: #c22755;
 }
 ::-moz-selection{
   color: #c3b628;
-  background-color: #1a9997;
+  background-color: #ac1e35;
 }
 p {
   display: block;
-  line-height: 1.em;
+  
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
-  margin: 0;
+
   letter-spacing: -0.02em;
   animation: typing 0.5s steps(30, end);
 }
@@ -48,8 +48,8 @@ p {
   color: #e2d86a;
 }
 .command {
-  color: #1cc9ce;
-  text-shadow: 0 0 5px #1cc9ce; 
+  color: #d41414;
+  text-shadow: 0 0 5px #b34343; 
 }
 .error {
   color: #B89076;
