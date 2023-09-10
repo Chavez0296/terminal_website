@@ -1,73 +1,130 @@
 html {
-    display: block;
+  display: block;
 }
 body{
-  min-height: 99%;
-  padding: 25px 20px;
-  margin: 0;
-  width: 100%;
-  font-family: cursor, system-ui;
-  overflow-x: hidden;
+min-height: 99%;
+padding: 25px 20px;
+margin: 0;
+width: 100%;
+min-width: 550px;
+font-family: cursor, system-ui;
+overflow-x: hidden;
+background: #666565;
 }
 ::selection{
-  color: #c3b628;
-  background-color: #c22755;
+color: #c3b628;
+background-color: #c22755;
 }
 ::-moz-selection{
-  color: #c3b628;
-  background-color: #ac1e35;
+color: #c3b628;
+background-color: #ac1e35;
+}
+textarea{
+  left: -1000px;
+  position: absolute;
+}
+b{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.cursor{
+  font-size: 12px;
+  color:#211830;
+  background-color: #c22755;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1.5s linear infinite;
+  
+}
+@keyframes blinker {
+  50%{
+    opacity: 0;
+    }
+}
+#command
+{
+  cursor: text;
+  height: 50px;
+  color: #d41414;
+}
+#liner{
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+#liner::before{
+  color:red;
+  content: "guest@lcterminal.com:~$";
+}
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 p {
-  display: block;
-  
-  margin: 0;
-  overflow: hidden;
-  white-space: nowrap;
+display: block;
+color: #CBA742;
+margin: 0;
+overflow: hidden;
+white-space: nowrap;
 
-  letter-spacing: -0.02em;
-  animation: typing 0.5s steps(30, end);
+letter-spacing: -0.02em;
+animation: typing 1s steps(30, end);
 }
 .no-animation {
-  animation: typing 0 steps(30, end);
+animation: typing 0 steps(30, end);
 }
 .margin {
-  margin-left: 20px;
+margin-left: 20px;
 }
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+from {
+  width: 0;
+}
+to {
+  width: 100%;
+}
 }
 .index {
-  color: #a6a6a6;
+color: #a6a6a6;
 }
 .color2 {
-  color: #e2d86a;
+color: #e2d86a;
 }
 .command {
-  color: #d41414;
-  text-shadow: 0 0 5px #b34343; 
+color: #d41414;
+text-shadow: 0 0 5px #b34343; 
 }
 .error {
-  color: #B89076;
+color: #B89076;
 }
 .white {
-  color: #fff;
+color: #fff;
 }
 .inherit,
 a {
-  color: #9C8394;
+color: #9C8394;
 }
 a {
-  text-decoration: inherit;
+text-decoration: inherit;
 }
 a:hover {
-  background: #73ABAD;
-  color: #211830;
+background: #73ABAD;
+color: #211830;
 }
 a:focus {
-  outline: 0;
+outline: 0;
 }

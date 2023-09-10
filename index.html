@@ -15,7 +15,7 @@
     <p class>
       <span class="index">Luis Chavez (LC) Unincorporated. All rights reserved. </span>
     </p>
-    <p class>██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;&hairsp;██████╗&nbsp;&nbsp;&nbsp;&nbsp;████████╗&nbsp;███████╗&nbsp;██████╗&nbsp;&nbsp;&nbsp;███╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;███╗██╗███╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;██╗&nbsp;&nbsp;█████╗&nbsp;&nbsp;&nbsp;&hairsp;██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;/\_/\&nbsp;&nbsp;&nbsp;&nbsp;/\</p>
+    <p class>██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;&hairsp;██████╗&nbsp;&nbsp;&nbsp;&nbsp;████████╗&nbsp;███████╗&nbsp;██████╗&nbsp;&nbsp;&nbsp;███╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;███╗██╗███╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;██╗&nbsp;&nbsp;█████╗&nbsp;&nbsp;&thinsp;&hairsp;&hairsp;██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;/\_/\&nbsp;&nbsp;&nbsp;&nbsp;/\</p>
     <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██╔════╝&nbsp;&nbsp;&nbsp;&nbsp;╚══██╔══╝&nbsp;██╔════╝&nbsp;██╔══██╗&hairsp;████╗&nbsp;&nbsp;&nbsp;████║██║████╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;&hairsp;██║██╔══██╗██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;o&nbsp;o&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;&nbsp;\</p>   
     <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;&hairsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;█████╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;██████╔╝&hairsp;██╔████&hairsp;╔██║██║██╔██╗&nbsp;&nbsp;&nbsp;██║███████║██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y&thinsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;\/&nbsp;&nbsp;&nbsp;/</p>
     <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;&hairsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██╔══╝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;██╔══██╗&hairsp;██║╚██&hairsp;╔╝██║██║██║╚██╗&hairsp;██║██╔══██║██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/</p>
@@ -29,7 +29,18 @@
       <span class="command">'help'</span>
       <span class="color2">.</span>
     </p>
+    <a id="before"></a>
   </div>
+  <div id="command" onclick="$('texts').focus();">
+    <textarea type="text" id="texts" onkeyup="typeIt(this,event)" onkeydown="typeIt(this,event);
+                  moveIt(this.value.length,event)" onkeypress="typeIt(this,event);" autofocus>
+    </textarea>
+    <div id="liner">
+      <span id="typer"></span>
+      <b class="cursor" id="cursor" style="left: 0px;">█</b>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 
   <!--
