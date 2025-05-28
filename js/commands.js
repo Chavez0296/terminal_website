@@ -10,7 +10,7 @@ var whois = [
   "Hey, I'm Luis!",
   "I'm an aspiring software engineer, who works on projects that interest me such as this one",
   "and make YouTube videos about my travels, film photography, projects, and cars.",
-  "I graduate with a Bachelor's in Computer Science in 2026, but I have worked professionaly with Perl & CSH for a year.",
+  "I graduate with a Bachelor's in Computer Science in 2026, but I have worked professionally with Perl & CSH for a year.",
   "My goal is to expand my knowledge as a software engineer and create scalable projects",
   "while documenting the process and also just sharing my other interests that come along.",
   "I hope to also inspire and help others, including my two younger brothers who also just started university.",
