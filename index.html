@@ -12,23 +12,6 @@
 
 <body>
   <div id="terminal">
-    <p class>
-      <span class="index">Luis Chavez (LC) Unincorporated. All rights reserved. </span>
-    </p>
-    <p class>██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██████╗&nbsp;&nbsp;&nbsp;&nbsp;████████╗&nbsp;&hairsp;&hairsp;███████╗&nbsp;██████╗&nbsp;&nbsp;&hairsp;███╗&nbsp;&nbsp;&nbsp;███╗&nbsp;&hairsp;██╗&nbsp;███╗&nbsp;&nbsp;&nbsp;&hairsp;██╗&nbsp;&nbsp;█████╗&nbsp;&nbsp;██╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;/\_/\&nbsp;&nbsp;/\</p>
-    <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██╔════╝&nbsp;&nbsp;&nbsp;&nbsp;╚══██╔══╝&nbsp;&hairsp;&hairsp;██╔════╝&nbsp;██╔══██╗&hairsp;&nbsp;████╗&nbsp;████║&nbsp;&hairsp;██║&nbsp;████╗&nbsp;&nbsp;&hairsp;██║&nbsp;██╔══██╗&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;o&nbsp;o&nbsp;\&nbsp;\&nbsp;\</p>   
-    <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;█████╗&nbsp;&nbsp;&nbsp;&hairsp;██████╔╝&nbsp;&hairsp;██╔████&hairsp;╔██║&nbsp;██║&nbsp;██╔██╗&nbsp;&hairsp;██║&nbsp;███████║&nbsp;&hairsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Y&nbsp;&nbsp;&nbsp;\/&nbsp;/</p>
-    <p class>██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;██╔══╝&nbsp;&nbsp;&nbsp;&hairsp;██╔══██╗&nbsp;&hairsp;██║╚██&hairsp;╔╝██║&nbsp;██║&nbsp;██║╚██╗&hairsp;██║&nbsp;██╔══██║&nbsp;&hairsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/</p>
-    <p class>███████╗╚██████╗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██║&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;███████╗&nbsp;██║&nbsp;&nbsp;&hairsp;██║&hairsp;&nbsp;██║&nbsp;╚═╝&nbsp;&hairsp;██║&nbsp;██║&nbsp;██║&nbsp;&hairsp;╚████║&nbsp;██║&nbsp;&nbsp;██║&nbsp;&hairsp;███████╗&nbsp;\&nbsp;&nbsp;|&nbsp;||&nbsp;|&nbsp;/&nbsp;&nbsp;&nbsp;</p>
-    <p class>╚══════╝&nbsp;╚═════╝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═╝&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;╚══════╝&nbsp;╚═╝&nbsp;&nbsp;&hairsp;╚═╝&hairsp;&nbsp;╚═╝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═╝&nbsp;╚═╝&nbsp;╚═╝&nbsp;&nbsp;&hairsp;&hairsp;╚═══╝&nbsp;╚═╝&nbsp;&nbsp;╚═╝&nbsp;&hairsp;╚══════╝&nbsp;&nbsp;`&nbsp;|&nbsp;||&nbsp;|'&nbsp;&nbsp;&nbsp;</p>
-    <p class>
-      <span class="color2">Welcome to my web terminal...</span>
-    </p>
-    <p class>
-      <span class="color2">For a list of available commands, type</span>
-      <span class="command">'help'</span>
-      <span class="color2">.</span>
-    </p>
     <a id="before"></a>
   </div>
   <div id="command" onclick="$('texts').focus();">
@@ -36,18 +19,15 @@
                   moveIt(this.value.length,event)" onkeypress="typeIt(this,event);" autofocus>
     </textarea>
     <div id="liner">
-      <span id="typer"></span>
-      <b class="cursor" id="cursor" style="left: 0px;">█</b>
+      <span id="typer"></span><b class="cursor" id="cursor">█</b>
     </div>
   </div>
+  <script src="js/commands.js"></script>
+  <script src="js/typer.js"></script>
+  <script type="module" src="js/script.js"></script>
+  
+   
 
-  <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
   
 </body>
 

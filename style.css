@@ -1,5 +1,6 @@
 
 body{
+color:#cb1d3a;
 margin: 0;
 padding: 15px 20px;
 min-height: 99%;
@@ -26,10 +27,9 @@ b{
   text-decoration: underline;
 }
 .cursor{
-  font-family: 'Courier New', Courier, monospace;
   font-size: 12px;
   color:#211830;
-  background-color: #c22755;
+  background-color: #cb1d3a;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -52,7 +52,7 @@ b{
 {
   cursor: text;
   height: 50px;
-  color: #d41414;
+  color: #cb1d3a;
 }
 #liner{
   line-height: 1.3em;
@@ -62,7 +62,7 @@ b{
   opacity: 0;
 }
 #liner::before{
-  color:red;
+  color:#cb1d3a;
   content: "guest@lcterminal.com:~$";
 }
 @keyframes show {
@@ -80,7 +80,7 @@ margin: 0;
 overflow: hidden;
 white-space: nowrap;
 line-height: 1.3em;
-letter-spacing: -0.02em;
+letter-spacing: 0.05em;
 animation: typing 1s steps(30, end);
 }
 .no-animation {
@@ -104,8 +104,8 @@ color: #a6a6a6;
 color: #e2d86a;
 }
 .command {
-color: #d41414;
-text-shadow: 0 0 5px #b34343; 
+color: #b00d0d;
+text-shadow: 0 0 10px #f04141; 
 }
 .error {
 color: #B89076;
@@ -115,14 +115,14 @@ color: #fff;
 }
 .inherit,
 a {
-color: #9C8394;
+color: #c870ac;
 }
 a {
 text-decoration: inherit;
 }
 a:hover {
-background: #73ABAD;
-color: #211830;
+background: CBA742;
+color: #c93b2e;
 }
 a:focus {
 outline: 0;
